@@ -1,0 +1,25 @@
+- Käynnistä Brackets.
+- Tee web_tekniikat kansion alle alihakemisto harj4 (jollei ole jo tehtynä) ja sen alle alihakemisto styles.
+- Tee hakemiston harj4 alle uusi index.html -tiedosto
+- Tee myös uusi CSS-tiedosto esim. layout.css kansioon styles ja linkitä se index.html -tiedostoon (ed. harjoitus). Voit toki ensin työstää head-osiossa style-elementin sisällä määritykset kuntoon ja sitten siirtää ne tyylitiedostoon.
+- Määritä ensin body-osioon yleiset määritykset esim. kirjasinlaji esim. verdana, marginaalit 0:ksi, tekstin tasaus vasemmalle sekä taustaväri sopivaksi.
+- Katso ylempänä olevaa dokumentin rakennetta, mistä se muodostuu. Määritä layout-rakenteet tyylitunnisteina (ovat sivulla ainutkertaisia) #page (leveys 960px, marginaalit 0 auto Korjaus 2.5.2019 , joka keskittää sivun ikkunaan).
+- Kutsu koodissa #page -tunnistetta <div id="page"> </div>
+- Määritä #header (leveys 960px, korkeus 80px sekä sopiva taustaväri), jos käytät reunuksia, niin huomioi niiden tarvitsema tila!
+Kutsu koodissa tyylitunnisteita (esim. #header) vastaavassa järjestyksessä eli page -tunnisteen sisällä <div id="header"></div>
+Tallenna sekä index.html sekä tyylitiedosto layout.css ja tarkista tulos selaimessa eri selaimilla
+Määritä header:in sisälle kolme samankokoista lohkoa: #header_logo, #header_center, #header_right (voivat olla esim. 320px kukin osio). Muista laskea kaikki margin/padding vaikutukset yhteen, jotta ei mene 960px:n ylitse, koska muutoin tulee ylivuoto. Voit määrittää myös taustavärit, jotta näet lohkojen vaikutusalueet. Korjaa määrityksiä tarpeen mukaan.
+Tee vastaavat kutsut koodiin <div id="header_logo></div> jne.
+Määritä header -osioiden teksteille tyhjää tilaa esim. 20 px (kaikki suunnat) sekä vaalea väri ja kirjoita tekstiä header-osioden sisään (kts. yllä oleva kuva)
+Määritä border-määritys (1px yhtenäinen musta) headerin eri osioiden osiolle ja huomaa, että sinun on korjattava osioiden leveyttä, jotta ne mahtuvat annettuun tilaan!
+HUOM! Älä etene eteenpäin, ennen kuin header-osio on kunnossa!
+Tallenna sekä tyylitiedosto layout.css että index.html ja tarkista välillä kaikilla selaimilla toimivuus.
+Määritä #menu:lle leveys 960px ja korkeus 30px. Huom: tämä alkaa uudelta riviltä (float:left)
+Testaa toimivuus.
+Jatka vastaavalla tavalla #content (alkaa taas vasemmalta:float), #content_left ja #content_right -osioden osalta ja määritä osioihin reunukset sekä taustaväri, jotta erottuvat taustasta. Kutsu koodissa tunnisteita.
+Kirjoita osioiden sisälle tekstiä, muista marginaalit riittäviksi.
+Määritä viimeiseksi #footer (alkaa vasemmalta), jonka korkeus on 30px, taustaväri harmaa, teksti keskitettyjne. Kutsu koodissa tunnistetta.
+Kirjoita tekstiä alatunnisteeseen.
+Tallenna index.html ja layout.css sekä testaa selaimilla.
+Tarkista validaattorilla virheet pois. Voit ajaa myös CSS-validaattorin.
+Voit kokeilla myös CSS3:n border-radius -ominaisuutta content_left ja content_right -osioiden kulmien pyöristykseen.

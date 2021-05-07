@@ -1,0 +1,76 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    text-align: left;
+    background-color: powderblue;
+}
+
+#page {
+    width: 960px;
+    background-color: bisque;
+    height: 800px;
+    margin: 0px auto;
+    border: 1px dashed gray;
+}
+
+#header {
+    background-color: azure;
+    height: 80px;
+}
+
+#logo, #keski, #oikea {
+    width: 318px;
+    background-color: burlywood;
+    height: 50px;
+    float: left;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#logo {
+    border: 1px solid rgb(255, 230, 1);
+}
+
+#keski {
+    border: 1px solid blue;
+}
+
+#oikea {
+    border: 1px solid rgb(255, 0, 0);
+}
+
+#menu {
+    width: 960px;
+    background-color: black;
+    color: white;
+    height: 25px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#content {
+background-color: cornsilk;
+height: 400px;
+}
+
+#content_left, #content_right {
+    background-color: darksalmon;
+    width: 448px;
+    height: 200px;
+    margin: 15px;
+    float: left;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border: 1px solid black;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0px;
+    width: 960px;
+    background-color: gray;
+    height: 25px;
+    text-align: center;
+    padding-top: 5px;
+}

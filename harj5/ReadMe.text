@@ -1,0 +1,28 @@
+Muista, että mallikuvissa ja vinkkivideolla olevat asettelumallit ja toiminnallisuudet pitää olla tehtynä vähintään yhtä hyvin ellei paremminkin.
+Käynnistä Brackets ja tee uusi html 5-dokumentti ja tallenna se harj5-hakemistoon index.html -nimelle.
+Voit kopioda edellisestä harjoituksesta 4 tyylitunnisteita käyttävän html-rakenteen tähän harjoitukseen.
+Poista siitä kuitenkin #header_logo/left, #header_center, #header_right -määrittelyt sekä näiden kutsut body-osiosta.
+Tee kuitenkin uusi CSS-tyylitiedosto tai <head>-osioon dokumenttikohtaiset määrittelyt (siirrä lopuksi tyylitiedostoon ja linkitä se sitten sivuun).
+Resetoidaan kaikki mahdolliset oletusmarginaalit 0:ksi body-määreeseen
+* { margin: 0;}
+Määritä body:yyn kirjasinkoko: 100% (=16px = 1em ) sekä valitaan oletuskirjasinperheeksi "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif .
+Määritä tunniste #page ja sille max-width 90% ikkunan leveydestä, marginaalit vasen ja oikea skaalautuvat ikkunan mukaan, taustaväri sekä korkeus, jotta näet, kuinka sivu muodostuu selaimeen.
+Lisää kutsu koodiin esim. <div id="page"> ...</div> ole tarkkana sisennysten kanssa, jotta koodista on helppo seurata vaikutusalueita. Selvennä kommenteilla div-määrityksen alku ja loppu koodiin.
+Määritä tyylitunniste #header ja sille korkeus tekstin välistyksen (padding) kautta suhteellisesti (1em), taustaväri:#575757, tekstiväri:#F0EBEB, sisällön keskitys ja kirjasinkoko suhteellisesti 200%.
+Lisää html:ään <div id="header">..</div> ja kirjoita oma nimesi suoraan header -div:in sisään
+Tallenna ja kokeile selaimella, toimiiko skaalaus otsikkoalueeseen oikein. HUOM! Laita tämä ensin kuntoon, ennen kuin menet eteenpäin
+Määritä sekä menuvalikko #nav ja alatunniste #footer yhdellä tyylimäärittelyllä (vinkki: pilkku). Korkeus (30px/16px= 1.875em), taustaväri:#E49A2F, tekstiväri: #F7F5EE, sisällön keskitys.
+Kutsu koodissa menuvalikkoa #nav, kirjoita linkkitekstit suoraan div:in sisään perustekstinä (ei vielä linkkejä).
+Tallenna ja tarkista selaimella, että sivupohja ja header on kunnossa. HUOM! Älä jatka eteenpäin ennen kuin tämä on kunnossa! Kannattaa aina tehdä vain yksi steppi kerrallaan!
+Testaa selaimella ja säädä tekstin etäisyys yläreunasta suhteellisesti (em). Korjaa myös tekstin korkeutta.
+Määritä tunniste #content (taustaväri:#D8CCAF). Tässä saattaa tarvita overflow-määritystä myös, kokeile myöhemmin, jos ei osu kohdilleen. Voit määrittää myös leveyden 100% sekä korkeuden esim. 300px, jotta näet, missä sisältöalue on.
+Määritä tunnisteet #content_left (width: 45% ja taustaväri:#F7F5EE, reunus yhtenäinen 1px väri:#AC9675, säädä marginaalit suhteellisesti esim. 20px/16px=??em) ja #content_right (muuten samat, mutta oikean marginaalin leveys suhteellinen määritys esim. em -määrityksellä oikeasta laidasta(esim. 20px/16 px= ??) ja tarvinnet myös overflow -määritystä hidden.
+Lisää tunnisteet (#content, #content_left ja #content_right) koodiin div:einä ja kokeile toimintaa syöttämällä tekstiä kumpaankiin osioon, kappaleen vaihdolla saat asettumaan nätisti sivulle:=). VINKKI: Float tasaa samalle riville ja float: right; -määritys tasaa oikeaan laitaan. Yleensä float:in jälkeen tarvitset myös clear -ominaisuuden seuraavaan elementtiin footer.
+Korjaa palstojen leveyttä pienentämällä molempien leveyttä, etsi sopiva suhteellinen %-arvo.
+Korjaa vasen ja oikea marginaali palstojen ympärille suhteellisesti (em tai %) sekä välistys tekstin etäisyydelle reunasta ja korjaa tarvittaessa palstojen leveyttä suhteellisesti (em tai %).
+Säädä teksti oikeisiin etäisyyksiin reunoista tyyliluokkia käyttäen, mikäli sille on tarvetta. Testaa selaimella!
+Lisää esim. oheinen kuva oikeaan laitaan. Määritä sille leveys:100% ja korkeus: auto sekä mahdollinen etäisyys reunoista. Säädä tarvittaessa.
+Linkkien määritys CSS:n lista-elementin kautta: Kopioi CSS-määritykset fully styled horizontal navigation bar example:sta omaan tiedostoosi ja muokkaa li-elementti inline-määritykseksi ja ul-elementtiin sisällön keskitys. Muuta taustavärit linkeissä värimaailmaan sopivaksi.
+Tee koodiin vastaavat kutsut (ul ja li -elementeillä), säädä linkkien väliä esim. välistyksellä.
+Tallenna ja testaa.
+Pyöristä palstojen reunukset border-radius -toiminnolla ja tee #header:in otsikkoon kirjainten välistys suhteellisesti esim. 3px/16px (letter-spacing).

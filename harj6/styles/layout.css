@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+* {
+    font-family: 'Montserrat';
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/playfairdisplay/v22/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKdFvXDTbtPY_Q.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+.fa-wine-glass-alt {
+    color: red;
+}
+
+body {
+    font-size: 100%;
+    margin: 0px auto;
+    text-align: left;
+    background-color: white;
+}
+
+article.page {
+    width: max-content 90%;
+    background-color: #333;
+    height: auto;
+}
+
+header {
+    padding: 0.1em;
+    background-color: #575757;
+    color: #F0EBEB;
+    text-align: center;
+    font-size: 200%;
+    letter-spacing: 0.1875em;
+}
+
+h1, h2 {
+    font-family: 'Playfair Display';
+}
+
+nav {
+    display: table;
+    margin: 0 auto;
+    background-color: #e49a2f;
+    color: #f7f5ee;
+}
+
+ul {
+    list-style-type: none;
+    height: 2em;
+    padding-top: 0.6em;
+    margin: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+li {
+    float: left;
+  }
+
+li a {
+    height: 1.875em;
+    display: inline;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+.active {
+    background-color:#e49a2f;
+  }
+
+section {
+    background-color: #d8ccaf;
+    width: 100%;
+    height: auto;
+    overflow: auto;
+}
+
+section.content_left, section.content_right {
+    width: 35%;
+    background-color: #f7f5ee;
+    border: 1 px solid #ac9675;
+    border-radius: 1.5em;
+    margin: 1.20em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    overflow: hidden;
+    float: left;
+}
+
+footer {
+    height: 1.875em;
+    background-color: #e49a2f;
+    color: #f7f5ee;
+    text-align: center;
+    font-size: 0.8em;
+    padding-top: 0.6em;
+    clear: left;
+}

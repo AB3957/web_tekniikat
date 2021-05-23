@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harjoitus 6 - Etusivu</title>
+    <link rel="stylesheet" href="styles/layout.css">
+    <!-- Google Font linkki lisätty -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap" rel="stylesheet" type='text/css'>
+    <script src="https://kit.fontawesome.com/5f8b0d4787.js" crossorigin="anonymous"></script>
+
+    <!-- Html 5 uudet rakenteet ja web-kirjasimet sekä font-awesome -ikonit
+        1. Muista, että mallikuvissa olevat asettelumallit ja toiminnallisuudet pitää olla tehtynä vähintään yhtä hyvin ellei paremminkin.
+        2. Kopio harj5-kansion sisältö (myös kuvahakemisto ja tyylihakemisto) uuteen hakemistoon harj6.
+        3. Muuta #page {..] -määritys tyylitiedostossa (tai dokumentin sisällä) article.page { {..}-määritykseksi (tai vain main-nimelle).
+        4. Muuta kutsu koodissa <div id="page">..</div> muotoon <article class="page">...</article> (tai <main> </main>)
+        5. Muuta #header {...}-määritys nimelle header {...} ja tallenna.
+        6. Muuta kutsu <div id="header">Matti Meikäläinen</div> koodi-ikkunassa oikeaan muotoon <header> <h1>Matti Meikäläinen</h1></header> ja tallenna. Rakenne vaatii, että määrityksen jälkeen tulee otsikko-elementti h1. Tallenna ja tarkista muutos selaimessa.
+        7. Muuta #nav, #footer {...} määritys tyylessä muotoon nav, footer {...}
+        8. Muuta kutsu <div id="nav">....</div> koodi-ikkunassa oikeaan muotoon <nav>...</nav>, samoin id=footer:in osalta <footer></footer> ja tallenna. Tarkista muutos selaimessa.
+        9. Muuta #content {...}-määritys tyylitiedostossa (tai dokumentin sisällä) nimelle section {...} ja tallenna.
+        10. Muuta kutsu <div id="content">....</div> koodi-ikkunassa oikeaan muotoon <section>...</section> ja tallenna. Tarkista muutos selaimessa.
+        11. Muuta #content_left {..} ja #content_right {...} -määritykset section.content_left {..} ja section.content_right {..} -määrityksiksi ja tallenna.
+        12. Muuta kutsu koodissa <div id="content_left">..</div> muotoon <section class="content_left">..</section> ja vastaavasti <div id="content_right">..</div> muotoon <section class="content_right">..</section> ja tallenna. Tarkista muutos selaimessa.
+        13. Voit poistaa kiinteät korkeusmääritykset sivun, contentin ja vasemman sekä oikean sisällön osalta, niin sisällöt tasautuvat sisällön korkeuden mukaan.
+    -->
+</head>
+<body>
+    <!-- Tästä alkaa Page -->
+    <article class="page">
+        <header> <!-- Tästä alkaa Header -->
+            <h1><i class="fas fa-bullseye fa-lg"></i>  Jonas Christiansen  <i class="fas fa-bullseye fa-lg"></i></h1>
+        </header> <!-- End Header -->
+
+        <nav> <!-- Navikointi - Sisältö sama kaikissa sivuissa-->
+            <ul>
+                <li></i><a class="active" href="index.html"><i class="fas fa-home"></i> Etusivu</a></li>
+                <li><a href="harrastukset.html"><i class="fas fa-futbol"></i> Harrastukset</a></li>
+                <li><a href="yhteystiedot.html"><i class="far fa-address-card"></i> Yhteystiedot</a></li>
+            </ul>
+        </nav>
+
+        <section> <!-- Start Content -->
+            <section class="content_left">
+                <h2>Harrastukset  <i class="fas fa-futbol fa-lg"></i></h2>
+                    Harrastuksiini kuuluu pelaaminen, palloilulajit, 
+                    musiikki sekä ruuanlaitto.<br><br>
+
+                <h2>Pelit ja tietokoneet <i class="fas fa-laptop fa-sm"></i></h2>
+                    Lapsena olin hyvin utelias tutustumaan perheeni tietokoneen käyttöön ja sen ominaisuuksiin mitä kaikkea pystyy tehdä eri ohjelmien avulla.
+                    Tämä johti siihen että pelit alkoi myös kiinnostaa ohella ja sitä kautta kartoittamaan kielitaitoa ja reaktiokykyä eri tilanteissa.<br>
+                
+                    Ei kestänyt kauan kun sain sedältäni Mikrobitti lehden ja halusin lukea sen kannesta kanteen aina kun uusi lehti tuli ja kokeilla ohjelmistoja 
+                    mitä saapui lehden cd-levyllä mukana. Tämä mielenkiinto teknologiasta on pysynyt mukana tähän päivään asti.<br><br>
+            </section>
+
+            <section class="content_right">
+                <h2>Ruoka & Viini  <i class="fas fa-utensils fa-lg"></i>  <i class="fas fa-wine-glass-alt fa-lg"></i></h2>
+                    Ruoka ja viini on aina ollut tärkeä osa elämääni. Olen työskennellyt kahdeksassa eri ravintolassa joista parhaimmaksi luokittelen kahden Michelin tähden ravintolan Edsbacka Krog ravintolan 
+                    Sollentunasta. <br><br>
+                    Täällä opin paljon ruuanlaitosta, ja vielä tänäkin päivänä koitan kehittää itseäni astetta paremmaksi masterchefiksi arjen askareissa.
+                    <br><br>
+                    <img src="images/jonas.jpg" alt="Jonas Christiansen.jpg" style="width: 100%; height: auto; border: 1px solid #f7f5ee; border-radius: 1.5em;"><br><br>
+             </section>
+        </section> <!-- End Content -->
+
+        <footer> <!-- Tästä alkaa Footer -->
+            <i class="far fa-address-card fa-lg"></i>  Yhteystiedot: Kokkosaarenkatu 4 A 10, 00560 HKI |  <a href="mailto:jonas.benjamin.christiansen@gmail.com">jonas.benjamin.christiansen@gmail.com</a>
+        </footer>
+
+    </article>
+    <!-- End Page -->
+
+</body>
+</html>

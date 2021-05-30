@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Harjoitus 7: Html 5 mediaelementit ja kuvagalleria (Lightbox)</title>
     <link href="css\lightbox.css" rel="stylesheet" />
+    git lfs install
 </head>
 <body>
     <p>
-    git lfs install
         <audio controls>
             <source src="audio\kalimba.mp3" type="audio/mpeg">
           Your browser does not support the audio element.

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harjoitus 7: Html 5 mediaelementit ja kuvagalleria (Lightbox)</title>
+    <link href="css\lightbox.css" rel="stylesheet" />
+</head>
+<body>
+    <p>
+        <audio controls>
+            <source src="audio\kalimba.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+
+        <!-- Tehtävä 5 - Audio webbisivun taustalla
+        <audio controls autoplay>
+            <source src="audio\kalimba.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+        -->
+
+        <h1>Tervetuloa perheeseen Pablo!</h1>
+    </p>
+
+    <a href="images\pablo1.jpg" data-lightbox="Pablo" data-title="Pablo 7 viikkoa.">Pablo 7 viikkoa</a><br>
+    <a href="images\pablo2.jpg" data-lightbox="Pablo" data-title="Pablo 8 viikkoa.">Pablo 8 viikkoa</a><br>
+    <a href="images\pablo3.jpg" data-lightbox="Pablo" data-title="Pablo 9 viikkoa.">Pablo 9 viikkoa</a><br>
+    <a href="images\pablo4.jpg" data-lightbox="Pablo" data-title="Pablo 9 viikkoa.">Pablo 9 viikkoa</a><br><br>
+
+    <a href="images\pablo1.jpg" data-lightbox="Pablo" data-title="Pablo 7 viikkoa.">
+        <img src="images\pablo1.jpg" width="150" height="201" alt=""></a>
+    <a href="images\pablo2.jpg" data-lightbox="Pablo" data-title="Pablo 8 viikkoa.">
+        <img src="images\pablo2.jpg" width="auto" height="201" alt=""></a><br>
+    <a href="images\pablo3.jpg" data-lightbox="Pablo" data-title="Pablo 9 viikkoa.">
+        <img src="images\pablo3.jpg" width="150" height="201" alt=""></a>
+    <a href="images\pablo4.jpg" data-lightbox="Pablo" data-title="Pablo 9 viikkoa.">
+        <img src="images\pablo4.jpg" width="150" height="201" alt=""></a><br><br><br><br>
+
+    
+    <video width="auto" height="400" poster="images\pablo_luonnossa.JPG" controls>>
+        <source src="videos\pablo_luonnossa.mp4" type="video/mp4">
+        Your browser does not support HTML video.
+    </video>
+
+    <video width="auto" height="400" poster="images\pablo_tapaa_taran.JPG" controls>>
+        <source src="videos\pablo_tapaa_taran.mp4" type="video/mp4">
+        Your browser does not support HTML video.
+    </video>
+
+    <video width="auto" height="400" poster="images\pablo_tule.JPG" controls>>
+        <source src="videos\pablo_tule.mp4" type="video/mp4">
+        Your browser does not support HTML video.
+    </video>
+
+    <video width="auto" height="400" autoplay muted controls loop>
+        <source src="videos\pennut_kennellissä.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <script src="js\lightbox-plus-jquery.js"></script>
+</body>
+</html>

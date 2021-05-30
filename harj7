@@ -9,6 +9,7 @@
 </head>
 <body>
     <p>
+    git lfs install
         <audio controls>
             <source src="audio\kalimba.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
